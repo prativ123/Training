@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id Selector</title>
+    <style>
+        #container{
+            background-color: blue;
+            width: 400px;
+            height: 200px;
+        }
+       /* takes id value instead of class. higher priority for id  */
+            .demo{ 
+            width: 200px;
+            height: 500px;
+            background-color: aqua !important;
+        
+        }
+    </style>
+</head>
+<body>
+    id is also giving name to element.
+    but it must be unique.
+    <div id="container" class="demo"></div>
+    
+</body>
+</html>

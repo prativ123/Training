@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky and Fixed Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 200px;
+            background-color: wheat;
+            text-align: center;
+            padding: 30px;
+        }
+        nav{
+            background-color: brown;
+            color: aliceblue;
+            text-align: center;
+            padding: 30px;
+            position: sticky;
+            top: 0;
+            /* Shows in the screen even if we scroll */
+        }
+        main{
+            height: 700px;
+            background-color: aqua;
+        }
+        footer{
+            background-color: bisque;
+            text-align: center;
+            padding: 30px;
+
+        }
+        .btn{
+            width: 100px;
+            height: 50px;
+            background-color: blueviolet;
+            color: red;
+            border-radius: 15px;
+            position: fixed;
+            bottom: 50px;
+            right: 20px;
+
+        }
+        @media screen and (max-width:992px){
+            header{
+                background-color: orange;
+                color: red;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <header>This is a header</header>
+    <nav>This is a nav</nav>
+    <main></main>
+    <footer>&copy;This is a footer</footer>
+    <button class="btn">Go to Next page</button>
+</body>
+</html>

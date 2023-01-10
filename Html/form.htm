@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- Form is used to collect input/data from user -->
+    <form action="">
+      <fieldset>
+        <legend>User Information Form</legend>
+        <label for="firstname">First Name</label>
+        <br />
+        <input type="text" name="fname" id="firstname" placeholder="Prativ" />
+        <br />
+        <label for="lastname">Last Name</label>
+        <br />
+        <input type="text" name="lname" id="lastname" placeholder="Shrestha" />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="prativ.stha03@gmail.com"
+        />
+        <br />
+        <label for="password">Password</label>
+        <br />
+        <input type="password" name="password" id="password" />
+        <br />
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" />
+        <br />
+        <label for="gender">Gender</label>
+        <br />
+        <input type="radio" name="gender" value="male" />Male
+        <input type="radio" name="gender" value="female" />Female
+        <br />
+        <br />
+        <label for="hobby">Hobbies</label><br />
+        <input type="checkbox" name="hobby" value="games" />Playing Games
+        <input type="checkbox" name="hobby" value="video" />Watching Videos
+        <input type="checkbox" name="hobby" value="image" />Drawing Pictures
+        <br />
+        <br />
+        <label for="district">Districts</label>
+        <br />
+        <select name="district" id="district">
+          <option value="Kathmandu">Kathmandu</option>
+          <option value="Bhaktapur">Bhaktapur</option>
+          <option value="Lalitpur">Lalitpur</option>
+        </select>
+        <br />
+
+        <br />
+        <label for="image">Image Upload</label>
+        <br />
+        <input type="file" name="image" id="image" accept="image/*" />
+        <br />
+        <label for="msg">Message</label><br />
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Write Your Message Here"
+        ></textarea
+        ><br />
+        <input type="search" name="search" placeholder="search" /><br />
+        <input type="submit" value="Send" />
+        <input type="reset" value="Reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>

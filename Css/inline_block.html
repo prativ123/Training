@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Block Element</title>
+    <style>
+        p{
+            background-color: black;
+            color: aliceblue;
+            display: inline;
+            /* inline change block to inline. */
+        }
+        span{
+            background-color: aquamarine;
+            color: black;
+            display: block;
+            /* block change inline to block */
+        }
+        ul{
+            background-color: aqua;
+            /* display: inline; */
+        }
+        li{
+            display: inline;
+        }
+        a{
+            text-decoration: none;
+            padding: 20px;
+            font-size: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Block element is defined as the element which covers 
+    full width of the screen.
+    Covers Full Screen of the page. -->
+    <p>Hello from the other side.</p>
+        <!-- inline element is defined as the element
+             which covers only content -->
+
+    <span>Hello from the same side.</span>
+    <h2>Inline-block</h2>
+    <!-- inline-block carry the property of inline as well as block.
+    when we need pagging top and bottom we use it. -->
+    <ul>
+        <li><a href="#">Section</a></li>
+        <li><a href="#">Section</a></li>
+        <li><a href="#">Section</a></li>
+        <li><a href="#">Section</a></li>
+    </ul>
+</body>
+</html>
