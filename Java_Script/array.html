@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        let fruits=['Apple', 'Banana', 'Mango', 'Orange']
+        document.write(fruits,'<br>')
+        document.write(fruits[0],'<br>')
+        document.write(fruits[1],'<br>')
+        document.write(fruits[2],'<br>')
+        document.write(fruits[3],'<br>')
+        document.write(fruits.length,'<br>')
+        fruits.pop()
+        document.write(fruits,'<br>')
+        fruits.push('Lemon')
+        document.write(fruits,'<br>')
+        //removes 1st element
+        fruits.shift()
+        document.write(fruits,'<br>')
+        //add element in first position
+        fruits.unshift('cherry')
+        document.write(fruits,'<br>')
+        //to add more than one element from that location ie 3 is 4th location.
+        fruits.splice(3,0,'lichi','pineapple','watermelon')
+        document.write(fruits,'<br>')
+        //ascending order
+        fruits.sort()
+        document.write(fruits,'<br>')
+        //reverse
+        fruits.reverse()
+        document.write(fruits,'<br>')
+    </script>
+</body>
+</html>
