@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+
+    <pre>
+        changes occurs in web pages that we programmed in 
+        code
+    </pre>
+    <button onclick="demo()">Click Me</button>
+    <p id="result"></p>
+
+    <button ondblclick="demo1()">Click Me Twice</button>
+
+    <button onmouseover="demo2()" onmouseout="demo()">Mouse</button>
+    <script>
+        function demo()
+        {
+            document.getElementById('result').innerHTML = new Date()
+            //document.write("Hello World")
+        }
+        function demo1()
+        {
+            document.getElementById('result').innerHTML = "Hello World"
+        }
+
+        function demo2()
+        {
+            document.getElementById('result').innerHTML = "Mouse Over"
+            
+        }
+
+    </script>
+</body>
+</html>
