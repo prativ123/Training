@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <pre>
+        <!-- loop is repetation of code.
+        four type of Loops
+        1. for Loop
+        2. nested loop 
+        3. while Loop
+        4. do-while loop  -->
+    </pre>
+    <script>
+        //for loop
+        for(i=1;i<20;i++)
+        {
+            document.write(i)
+            document.write('<br>')
+            
+        }
+
+        for(i=1;i<10;i++)
+        {
+            document.write("Prativ Shrestha")
+            document.write('<br>')
+            
+        }
+
+        //nested loop
+        for(i=1;i<=20;i++){
+            for(j=1;j<=10;j++){
+                document.write(i,"x",j,"=",i*j,'<br>')
+            }
+            document.write('<hr>')
+        }
+
+        //while loop
+        let a=1
+        while(a<=15){
+            document.write(a,'&nbsp;')
+            a++
+        }
+
+        //do-while loop
+        let b=20
+        do{
+            document.write(`${b} &nbsp;`)
+            b--
+        }
+        while(b>0)
+    </script>
+</body>
+</html>
