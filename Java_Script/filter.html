@@ -7,6 +7,20 @@
     <title>Filter</title>
 </head>
 <body>
-    
+    <pre>
+        <!-- filter() method returns a new array with all element that pass the test defined by the given function. -->
+    </pre>
+    <script>
+        const price = [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000]
+
+        let newprice = price.filter(functionDemo)
+
+        function functionDemo(x){
+            if(x<=5000){
+                document.write(x,'<br>')
+            }
+            
+        }
+    </script>
 </body>
 </html>

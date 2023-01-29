@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduce</title>
+</head>
+<body>
+    <pre>
+        reduce() method is used to combine all the array element into one element.
+        apply reducer function on each elementof the array and returns a single output value.
+    </pre>
+
+    <script>
+        const price = [100, 200, 300 ,400 ,500 ]
+
+       let newprice = price.reduce(addValue)
+
+       function addValue(accumulator, currentValue){
+        return accumulator+currentValue
+       }
+       //a=100
+       //c=200
+       //a=300
+       //c=300
+       //a=600
+       //c=400
+
+       document.write(newprice)
+    </script>
+</body>
+</html>
