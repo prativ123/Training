@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        ul{
+        
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            background-color: blue;
+            color: orange;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        DOM(Document Object MOdel) control on html elements and change it according to its need.
+    </pre>
+    <ul id="list">
+    <li><a href="https://www.youtube.com/">Link 1</a><br></li>
+    <li ><a href="https://www.facebook.com/" id="demo">Link 2</a></li>
+    </ul>
+    <br><button class="btn">Click Me</button><br>
+    <script>
+        document.getElementsById("demo").href = "https://fmovies.wtf/home"
+        document.getElementById("")
+        document.getElementById('list').style.backgroundColor="red"
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+</head>
+<body>
+    <script>
+        //map() method is used to create a new array by calling a function for every array eleamnt.
+
+        const fruits = ['banana ','orange ','papaya ','mango ']
+        fruits.map(functionDemo)
+
+        function functionDemo(fruit_name){
+           // document.write(fruit_name)
+            document.write(`${fruit_name} &nbsp; <br>`)
+        }
+
+        let number = [3,4,5,6]
+        number.map(square)
+
+        function square(x){
+            document.write(x*x,'<br>')
+        }
+    </script>
+</body>
+</html>
