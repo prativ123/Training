@@ -7,6 +7,32 @@
     <title>Json</title>
 </head>
 <body>
+    <pre>
+        json(javascript object notation)
+        is used to store data and transfer data.
+    </pre>
+    <script>
+        const student = {
+            "first_name" : "Prativ",
+            "last_name" : "Shrestha",
+            "age" : 22,
+            "subject" : ["html","javascript","python"]
+        }
+        document.write(student.first_name, "<br>")
+        document.write(student.subject[1],'<br>')
+
+        document.write(typeof(student),'<br>')
+
+        let obj_to_string = JSON.stringify(student)
+        document.write(obj_to_string,'<br>')
+        document.write(typeof(obj_to_string),'<br>')
+
+        let string_to_object = JSON.parse(obj_to_string)
+        document.write(string_to_object, '<br>')
+
+        document.write(string_to_object.first_name)
+    </script>
+
     
 </body>
 </html>
