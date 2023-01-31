@@ -21,3 +21,12 @@ print(fruits)
 #extend()-> to extend two list
 #sort()-> rearrange the elements in the ascending order
 #reverse()-> rearrange the elements in the reverse order.
+print(len(fruits))
+fruits.sort()
+print(fruits)
+fruits.reverse()
+print(fruits)
+fruits.extend(["kiwi","cherry"])
+print(fruits)
+fruits.clear()
+print(fruits)
