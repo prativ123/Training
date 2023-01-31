@@ -26,3 +26,15 @@ nest_dict={
 }
 print(nest_dict["key1"]["nestKey"]["subnestKey"])
 print(nest_dict["key1"]["nestKey"])
+
+
+d={}
+d["fruits"]="apple"
+d["age"]=22
+print(d)
+
+#basic dictonary methods
+#keys() -> it only prints the key of the dictionary.
+#value()-> it only prints the value.
+print(nest_dict.keys())
+print(nest_dict.values())
