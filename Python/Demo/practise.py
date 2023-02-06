@@ -45,3 +45,33 @@ else:
         print("not palindrome") 
 print("------------------")
 print("------------------")
+
+#armstrong number
+
+
+# x=371
+# result=0
+
+# while x != 0 :
+#        remainder = x % 10
+#        result += remainder * remainder * remainder
+#        x /= 10
+# if result == x:
+#      print("armstrong number")
+# else:
+#      print("not armstrong number")
+
+
+r,p = 371,371
+result = 0
+while p!=0:    
+    remainder= p%10
+    result += remainder**(3)
+    p//=10
+
+print(result)
+if result == r: 
+     print("yes")
+else: 
+     print("no")
+
